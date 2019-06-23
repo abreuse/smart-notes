@@ -1,4 +1,4 @@
-package infra
+package fr.alexis.breuse
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
