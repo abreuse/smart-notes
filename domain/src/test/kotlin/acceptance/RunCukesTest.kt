@@ -1,5 +1,3 @@
-package acceptance
-
 import cucumber.api.CucumberOptions
 import cucumber.api.junit.Cucumber
 import org.junit.runner.RunWith
@@ -9,4 +7,4 @@ import org.junit.runner.RunWith
         plugin = ["pretty"],
         features = ["classpath:features"],
         glue = ["classpath:acceptance.stepdefs"])
-class RunCucumberTest
+class RunCukesTest
