@@ -1,5 +1,3 @@
-package fr.alexis.breuse.controller
-
 import fr.alexis.breuse.api.CreateNote
 import fr.alexis.breuse.api.FetchNote
 import fr.alexis.breuse.resources.Note
@@ -11,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RestController
 import java.net.URI
 
-@RestController("/controller")
+@RestController("/notes")
 class NoteController(val createNote: CreateNote,
                      val fetchNote: FetchNote) {
 
